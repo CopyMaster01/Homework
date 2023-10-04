@@ -30,6 +30,7 @@ void menu();
 void operation(linklist l);
 //主函数
 int main(){
+
     linklist l = creatlinklist();
     menu();
     operation(l);
@@ -54,8 +55,9 @@ int get_data(linklist l, int i, class sd){
         p = p -> next;
         j++;
     }
-    if(p != NULL || j > 1)
+    if(p != NULL || j > 1){
         return 0;
+    }
     sd = p -> data;
     return 1;
 }
@@ -173,4 +175,3 @@ void operation(linklist l){
         }
     }
 }
-
