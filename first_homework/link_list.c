@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 //单个节点的信息组成（内容）:课程名称、课程编号、课程成绩
 typedef struct{
     char name[10];
