@@ -11,6 +11,7 @@ struct Time
     int leave_m;
 };
 
+
 // 定义停车场栈的结构
 #define MAX_CAPACITY 10
 typedef struct {
